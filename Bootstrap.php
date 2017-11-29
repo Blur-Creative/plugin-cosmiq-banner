@@ -24,6 +24,14 @@ class Shopware_Plugins_Backend_BlurCosmiqBanner_Bootstrap extends Shopware_Compo
     {
         return "0.0.1";
     }
+	
+    /**
+     * Returns a Meta Infos
+     */
+    public function getInfo() {
+        include 'meta.php';
+        return $meta;
+    }
     
     // Set the new secureUninstall capability
     public function getCapabilities()

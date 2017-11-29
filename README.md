@@ -1,0 +1,1 @@
+# Cosmiq Banner / shopping world element
